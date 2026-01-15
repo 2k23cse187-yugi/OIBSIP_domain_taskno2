@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        header img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 4px solid #fff;
+        }
+
+        header h1 {
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 16px;
+            color: #ccc;
+        }
+
+        /* Navigation */
+        nav {
+            background: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Sections */
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* Skills */
+        .skills {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .skill-box {
+            background: #f4f4f4;
+            padding: 20px;
+            width: 30%;
+            text-align: center;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        /* Projects */
+        .projects {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .project-box {
+            background: #f4f4f4;
+            padding: 20px;
+            width: 45%;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        /* Contact */
+        .contact p {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .skill-box, .project-box {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="C:\Users\yugim\OneDrive\Desktop\intershipassesment\user-icon-flat-style-person-260nw-1212192763.webp" alt="Profile Image">
+        <h1>Yugitha M</h1>
+        <p>Web Development Beginner</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p style="text-align:center;">
+            Hello! I am a beginner web developer learning HTML and CSS.
+            This is my personal portfolio where I showcase my skills,
+            projects, and contact information.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills">
+            <div class="skill-box">
+                <h3>HTML</h3>
+                <p>Creating structured web pages</p>
+            </div>
+            <div class="skill-box">
+                <h3>CSS</h3>
+                <p>Styling and layout design</p>
+            </div>
+            <div class="skill-box">
+                <h3>Responsive Design</h3>
+                <p>Mobile-friendly layouts</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects">
+            <div class="project-box">
+                <h3>Landing Page</h3>
+                <p>A simple landing page built using HTML and CSS.</p>
+            </div>
+            <div class="project-box">
+                <h3>Portfolio Website</h3>
+                <p>This personal portfolio project for practice.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: yourname@email.com</p>
+        <p>Phone: +123 456 7890</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Your Name | Personal Portfolio</p>
+    </footer>
+
+</body>
+</html>
